@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Urfan
- * Date: 10/26/2018
- * Time: 11:18 PM
- */
 function CustomExplode($val,$str)
 {
     $data = [];
@@ -29,9 +23,5 @@ function CustomExplode($val,$str)
     return false;
 }
 
-$str = "bu gun hava soyuqdur";
-echo "<h1>Explode funksyasi</h1>";
-print_r(explode(" ",$str));
-echo "<hr>";
-echo "<h1>Men yazdigim funksya</h1>";
+$str = "this is a function";
 print_r(CustomExplode(" ",$str));
